@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Icon\icon.png" />
+    <None Remove="Images\logo.png" />
+    <None Remove="Images\picture\Black.png" />
+    <None Remove="Images\picture\camera.png" />
+    <None Remove="Images\picture\cpu.png" />
+    <None Remove="Images\picture\dom.png" />
+    <None Remove="Images\picture\disketa.png" />
+    <None Remove="Images\picture\gazeta.png" />
+    <None Remove="Images\picture\clava.png" />
+	<None Remove="Images\picture\instr.png" />
+    <None Remove="Images\picture\lampochka.png" />
+    <None Remove="Images\picture\map.png" />
+    <None Remove="Images\picture\money.png" />
+	<None Remove="Images\picture\pechenie.png" />
+	<None Remove="Images\picture\pesok-chasi.png" />
+	<None Remove="Images\picture\pirojn.png" />
+	<None Remove="Images\picture\sova.png" />
+	<None Remove="Images\picture\zamok.png" />
+	<None Remove="Images\templateIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Icon\icon.png" />
+	<Resource Include="Images\picture\camera.png" />
+	<Resource Include="Images\picture\cpu.png" />
+	<Resource Include="Images\picture\dom.png" />
+	<Resource Include="Images\picture\disketa.png" />
+	<Resource Include="Images\picture\Black.png" />
+	<Resource Include="Images\picture\gazeta.png" />
+	<Resource Include="Images\picture\clava.png" />
+	<Resource Include="Images\picture\instr.png" />
+	<Resource Include="Images\picture\lampochka.png" />
+	<Resource Include="Images\picture\map.png" />
+	<Resource Include="Images\picture\money.png" />
+	<Resource Include="Images\picture\pechenie.png" />
+	<Resource Include="Images\picture\pesok-chasi.png" />
+	<Resource Include="Images\picture\pirojn.png" />
+	<Resource Include="Images\picture\sova.png" />
+	<Resource Include="Images\picture\zamok.png" />
+  </ItemGroup>
+
+</Project>
